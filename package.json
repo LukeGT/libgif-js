@@ -1,0 +1,23 @@
+{
+  "name": "libgif-js",
+  "version": "1.0.0",
+  "description": "JavaScript GIF parser and player",
+  "main": "libgif.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeGT/libgif-js.git"
+  },
+  "keywords": [
+    "gif",
+    "parser",
+    "player"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeGT/libgif-js/issues"
+  },
+  "homepage": "https://github.com/LukeGT/libgif-js#readme"
+}
