@@ -456,7 +456,7 @@
         var frameOffsets = []; // elements have .x and .y properties
 
         var gif = options.gif;
-        if (typeof options.auto_play == 'undefined')
+        if (typeof options.auto_play == 'undefined' && gif)
             options.auto_play = (!gif.getAttribute('rel:auto_play') || gif.getAttribute('rel:auto_play') == '1');
 
         var onEndListener = (options.hasOwnProperty('on_end') ? options.on_end : null);
